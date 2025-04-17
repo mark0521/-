@@ -1,1 +1,23 @@
+# 🧠 Asia University CSIE 教師資料爬蟲
 
+這是一個使用 Python 製作的網頁爬蟲，會自動從 [亞洲大學資工系官方網站](https://csie.asia.edu.tw/zh_tw/TeacherIntroduction/Full_time_faculty) 擷取所有全職教師的姓名與研究領域，並將結果顯示在終端機，同時儲存成 `teachers_info.txt` 檔案。
+
+---
+
+## 🧩 功能特色
+
+- ✅ 自動連線至教師介紹網頁
+- ✅ 抓取每位老師的 **姓名** 與 **研究領域**
+- ✅ 結果會顯示於終端機
+- ✅ 同步寫入 `teachers_info.txt`
+- ⚠️ 若無資料則顯示「沒東西」
+- ⚠️ 若網站無法連線，會給予錯誤提示
+
+---
+
+## 📦 安裝方式
+
+請先安裝必要套件（需使用 Python 3）：
+
+```bash
+pip install requests beautifulsoup4
